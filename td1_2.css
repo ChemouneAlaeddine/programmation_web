@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+    font-family: Verdana, sans-serif;
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.categorie {
+    font-family: Helvetica, sans-serif;
+    float: center;
+    width: 100%;
+    background-color: #92a8d1;
+}
+
+.titre {
+    font-family: Gill Sans, sans-serif;
+    background-color: #aaa;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(201, 76, 76);
+}
+
+.auteur {
+    font-family: Didot, serif;
+    background-color: #aaa;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(201, 76, 76, 0.3);
+}
+
+.date {
+    font-family: FreeMono, monospace;
+    background-color: #aaa;
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(89, 43%, 51%);
+}
+
+.contenu {
+    font-family: cursive;
+    background-color: #aaa;
+    width: 100%;
+    padding: 50px;
+    background-color: hsla(89, 43%, 51%, 0.3);
+}
+
+/* Footer */
+.footer {
+    font-family: Impact, fantasy;
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+    background-color: #fefbd8;
+}
