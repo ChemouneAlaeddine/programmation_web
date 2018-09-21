@@ -1,20 +1,4 @@
-body {
-}
-
-/* Header/Blog Title */
-.header {
-}
-
 img{
-    height: 120;
-    width: 80;
-}
-
-div.imagez {
-    height: 120;
-    width: 80;
-}
-
-/* Footer */
-.footer {
+    height: 120px;
+    width: 80px;
 }
