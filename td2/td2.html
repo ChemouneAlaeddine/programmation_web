@@ -17,22 +17,21 @@
 <h2>Les cartes de la banque</h2>
 
 <div>
-  <img id="element-1" src="10n.png">
-  <img id="element-2" src="ar.png">
-  <img id="element-3" src="4r.png">
-  <img id="element-4" src="2r.png">
-  <img id="element-5" src="jr.png">
-  <img id="element-6" src="8r.png">
-  <img id="element-7" src="kr.png">
-  <img id="element-8" src="qr.png">
+  <img id="cartes" src="img_cartes/deck_small.jpg" onclick="move()">
 </div>
 
 <h2>Vos cartes</h2>
 
-<h5>Votre niveau: <span id="niveau">0</span>  <button id="btn" type="button" onclick="move()">nouvelle carte !</button>
-<button id="btn" type="button" onclick="window.location.href='file:///home/chemoune/Bureau/programmation_web/td2/td2.html'">arreter</button></h5>
+<h5 id="h55">Votre niveau: <span id="niveau">0</span> <br> <br> <span id="niveau_bank"></span>  <br> <br> <button id="btn_p" type="button" onclick="move()">Jouer</button><br><br>
+<!--  <button id="btn_ar" type="button" onclick="finish()">arreter</button>  --> </h5>
 
-<div id="cartes">
+<div id="cadre_bank">
+</div>
+
+<div id="result">
+</div>
+
+<div id="cadre_player">
 </div>
 
 </body>
