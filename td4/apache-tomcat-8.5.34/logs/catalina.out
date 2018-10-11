@@ -1,0 +1,540 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 21:16:55.140 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+11-Oct-2018 21:16:55.155 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+11-Oct-2018 21:16:55.158 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+11-Oct-2018 21:16:55.159 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2018 21:16:55.159 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-34-generic
+11-Oct-2018 21:16:55.159 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2018 21:16:55.160 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+11-Oct-2018 21:16:55.160 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.2+13-Ubuntu-1ubuntu0.18.04.2
+11-Oct-2018 21:16:55.160 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2018 21:16:55.160 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:16:55.161 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:16:55.166 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Oct-2018 21:16:55.167 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Oct-2018 21:16:55.167 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 21:16:55.168 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/conf/logging.properties
+11-Oct-2018 21:16:55.169 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2018 21:16:55.169 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2018 21:16:55.169 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2018 21:16:55.170 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Oct-2018 21:16:55.170 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Oct-2018 21:16:55.170 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:16:55.171 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:16:55.171 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/temp
+11-Oct-2018 21:16:55.171 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+11-Oct-2018 21:16:55.291 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:16:55.424 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 21:16:55.446 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:16:55.452 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 21:16:55.453 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2064 ms
+11-Oct-2018 21:16:55.611 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+11-Oct-2018 21:16:55.612 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+11-Oct-2018 21:16:55.649 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] de l'application web
+11-Oct-2018 21:16:57.139 AVERTISSEMENT [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [204] milliseconds.
+11-Oct-2018 21:16:57.234 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] has finished in [1 585] ms
+11-Oct-2018 21:16:57.237 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] de l'application web
+11-Oct-2018 21:16:57.303 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] has finished in [66] ms
+11-Oct-2018 21:16:57.304 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] de l'application web
+11-Oct-2018 21:16:58.715 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] has finished in [1 411] ms
+11-Oct-2018 21:16:58.717 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] de l'application web
+11-Oct-2018 21:16:58.809 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] has finished in [91] ms
+11-Oct-2018 21:16:58.813 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] de l'application web
+11-Oct-2018 21:16:58.877 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] has finished in [64] ms
+11-Oct-2018 21:16:58.887 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:16:58.951 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:16:58.967 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 3513 ms
+11-Oct-2018 21:27:49.005 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] de l'application web
+11-Oct-2018 21:27:49.079 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] has finished in [74] ms
+11-Oct-2018 21:33:30.758 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Oct-2018 21:33:30.759 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:33:30.812 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:33:30.864 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+11-Oct-2018 21:33:30.982 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:33:30.987 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:33:30.990 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:33:30.992 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 21:33:37.545 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+11-Oct-2018 21:33:37.553 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+11-Oct-2018 21:33:37.553 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+11-Oct-2018 21:33:37.557 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2018 21:33:37.558 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-34-generic
+11-Oct-2018 21:33:37.558 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2018 21:33:37.558 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+11-Oct-2018 21:33:37.559 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.2+13-Ubuntu-1ubuntu0.18.04.2
+11-Oct-2018 21:33:37.559 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2018 21:33:37.559 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:33:37.559 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:33:37.560 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Oct-2018 21:33:37.561 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Oct-2018 21:33:37.561 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 21:33:37.561 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/conf/logging.properties
+11-Oct-2018 21:33:37.561 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2018 21:33:37.562 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2018 21:33:37.562 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2018 21:33:37.562 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Oct-2018 21:33:37.563 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Oct-2018 21:33:37.563 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:33:37.563 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:33:37.563 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/temp
+11-Oct-2018 21:33:37.564 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+11-Oct-2018 21:33:37.640 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:33:37.670 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 21:33:37.683 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:33:37.686 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 21:33:37.687 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1082 ms
+11-Oct-2018 21:33:37.804 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+11-Oct-2018 21:33:37.804 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+11-Oct-2018 21:33:37.830 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] de l'application web
+11-Oct-2018 21:33:38.602 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] has finished in [769] ms
+11-Oct-2018 21:33:38.603 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] de l'application web
+11-Oct-2018 21:33:38.694 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] has finished in [91] ms
+11-Oct-2018 21:33:38.695 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] de l'application web
+11-Oct-2018 21:33:38.785 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] has finished in [90] ms
+11-Oct-2018 21:33:38.787 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] de l'application web
+11-Oct-2018 21:33:39.265 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] has finished in [478] ms
+11-Oct-2018 21:33:39.266 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] de l'application web
+11-Oct-2018 21:33:39.303 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] has finished in [36] ms
+11-Oct-2018 21:33:39.303 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] de l'application web
+11-Oct-2018 21:33:39.337 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] has finished in [33] ms
+11-Oct-2018 21:33:39.343 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:33:39.415 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:33:39.443 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1755 ms
+11-Oct-2018 21:41:57.730 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Oct-2018 21:41:57.731 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:41:57.785 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:41:57.837 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+11-Oct-2018 21:41:57.915 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:41:57.924 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:41:57.929 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:41:57.931 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 21:42:02.886 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+11-Oct-2018 21:42:02.897 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+11-Oct-2018 21:42:02.897 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+11-Oct-2018 21:42:02.897 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2018 21:42:02.898 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-34-generic
+11-Oct-2018 21:42:02.898 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2018 21:42:02.898 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+11-Oct-2018 21:42:02.899 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.2+13-Ubuntu-1ubuntu0.18.04.2
+11-Oct-2018 21:42:02.899 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2018 21:42:02.900 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:42:02.900 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:42:02.901 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Oct-2018 21:42:02.901 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Oct-2018 21:42:02.901 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 21:42:02.901 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/conf/logging.properties
+11-Oct-2018 21:42:02.902 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2018 21:42:02.902 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2018 21:42:02.902 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2018 21:42:02.903 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Oct-2018 21:42:02.903 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Oct-2018 21:42:02.903 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:42:02.903 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:42:02.904 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/temp
+11-Oct-2018 21:42:02.904 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+11-Oct-2018 21:42:02.982 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:42:03.015 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 21:42:03.031 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:42:03.036 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 21:42:03.037 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1335 ms
+11-Oct-2018 21:42:03.195 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+11-Oct-2018 21:42:03.196 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+11-Oct-2018 21:42:03.228 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] de l'application web
+11-Oct-2018 21:42:04.159 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] has finished in [928] ms
+11-Oct-2018 21:42:04.161 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] de l'application web
+11-Oct-2018 21:42:04.252 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] has finished in [91] ms
+11-Oct-2018 21:42:04.253 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] de l'application web
+11-Oct-2018 21:42:04.297 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] has finished in [45] ms
+11-Oct-2018 21:42:04.298 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] de l'application web
+11-Oct-2018 21:42:04.837 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] has finished in [539] ms
+11-Oct-2018 21:42:04.838 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] de l'application web
+11-Oct-2018 21:42:04.875 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] has finished in [36] ms
+11-Oct-2018 21:42:04.875 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] de l'application web
+11-Oct-2018 21:42:04.931 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] has finished in [56] ms
+11-Oct-2018 21:42:04.942 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:42:04.979 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:42:05.039 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 2001 ms
+11-Oct-2018 21:43:44.981 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte []
+11-Oct-2018 21:43:45.050 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/examples]
+11-Oct-2018 21:43:45.071 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/host-manager]
+11-Oct-2018 21:43:45.079 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/manager]
+11-Oct-2018 21:43:45.092 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/hello]
+11-Oct-2018 21:43:45.102 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/docs]
+11-Oct-2018 21:43:45.117 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] de l'application web
+11-Oct-2018 21:43:45.169 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] has finished in [52] ms
+11-Oct-2018 21:43:45.170 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] de l'application web
+11-Oct-2018 21:43:45.239 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] has finished in [69] ms
+11-Oct-2018 21:43:45.240 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] de l'application web
+11-Oct-2018 21:43:45.284 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] has finished in [43] ms
+11-Oct-2018 21:43:45.284 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] de l'application web
+11-Oct-2018 21:43:45.585 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] has finished in [301] ms
+11-Oct-2018 21:43:45.585 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] de l'application web
+11-Oct-2018 21:43:45.622 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] has finished in [36] ms
+11-Oct-2018 21:43:45.622 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] de l'application web
+11-Oct-2018 21:43:45.649 INFOS [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] has finished in [27] ms
+11-Oct-2018 21:46:55.795 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/hello] a démarré
+11-Oct-2018 21:46:55.828 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+11-Oct-2018 21:48:03.485 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Oct-2018 21:48:03.486 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:48:03.539 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:48:03.591 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+11-Oct-2018 21:48:03.667 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:48:03.672 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:48:03.675 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:48:03.676 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 21:48:08.300 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+11-Oct-2018 21:48:08.315 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+11-Oct-2018 21:48:08.316 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+11-Oct-2018 21:48:08.316 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2018 21:48:08.316 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-34-generic
+11-Oct-2018 21:48:08.320 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2018 21:48:08.320 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+11-Oct-2018 21:48:08.321 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.2+13-Ubuntu-1ubuntu0.18.04.2
+11-Oct-2018 21:48:08.321 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2018 21:48:08.322 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:48:08.324 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:48:08.330 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Oct-2018 21:48:08.330 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Oct-2018 21:48:08.331 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 21:48:08.331 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/conf/logging.properties
+11-Oct-2018 21:48:08.331 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2018 21:48:08.332 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2018 21:48:08.332 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2018 21:48:08.332 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Oct-2018 21:48:08.333 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Oct-2018 21:48:08.333 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:48:08.335 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 21:48:08.337 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/temp
+11-Oct-2018 21:48:08.340 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+11-Oct-2018 21:48:08.477 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:48:08.518 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 21:48:08.537 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:48:08.543 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 21:48:08.545 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1387 ms
+11-Oct-2018 21:48:08.754 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+11-Oct-2018 21:48:08.754 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+11-Oct-2018 21:48:08.779 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] de l'application web
+11-Oct-2018 21:48:09.492 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] has finished in [710] ms
+11-Oct-2018 21:48:09.493 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] de l'application web
+11-Oct-2018 21:48:09.615 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] has finished in [121] ms
+11-Oct-2018 21:48:09.616 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] de l'application web
+11-Oct-2018 21:48:09.672 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] has finished in [56] ms
+11-Oct-2018 21:48:09.673 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] de l'application web
+11-Oct-2018 21:48:10.296 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] has finished in [622] ms
+11-Oct-2018 21:48:10.297 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] de l'application web
+11-Oct-2018 21:48:10.343 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] has finished in [45] ms
+11-Oct-2018 21:48:10.343 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] de l'application web
+11-Oct-2018 21:48:10.395 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] has finished in [51] ms
+11-Oct-2018 21:48:10.408 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 21:48:10.447 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 21:48:10.491 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1945 ms
+11-Oct-2018 21:59:50.898 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/hello] a démarré
+11-Oct-2018 21:59:50.971 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+11-Oct-2018 22:00:02.132 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Oct-2018 22:00:02.133 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:00:02.188 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:00:02.240 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+11-Oct-2018 22:00:02.300 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:00:02.305 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:00:02.313 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:00:02.314 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 22:00:07.749 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+11-Oct-2018 22:00:07.765 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+11-Oct-2018 22:00:07.766 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+11-Oct-2018 22:00:07.766 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2018 22:00:07.766 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-34-generic
+11-Oct-2018 22:00:07.767 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2018 22:00:07.767 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+11-Oct-2018 22:00:07.768 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.2+13-Ubuntu-1ubuntu0.18.04.2
+11-Oct-2018 22:00:07.769 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2018 22:00:07.769 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:00:07.769 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:00:07.770 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Oct-2018 22:00:07.770 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Oct-2018 22:00:07.771 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 22:00:07.771 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/conf/logging.properties
+11-Oct-2018 22:00:07.771 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2018 22:00:07.771 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2018 22:00:07.772 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2018 22:00:07.772 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Oct-2018 22:00:07.772 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Oct-2018 22:00:07.773 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:00:07.773 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:00:07.773 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/temp
+11-Oct-2018 22:00:07.773 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+11-Oct-2018 22:00:07.859 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:00:07.889 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 22:00:07.903 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:00:07.907 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 22:00:07.911 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1215 ms
+11-Oct-2018 22:00:08.027 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+11-Oct-2018 22:00:08.028 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+11-Oct-2018 22:00:08.047 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] de l'application web
+11-Oct-2018 22:00:08.845 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] has finished in [792] ms
+11-Oct-2018 22:00:08.846 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] de l'application web
+11-Oct-2018 22:00:08.946 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] has finished in [100] ms
+11-Oct-2018 22:00:08.947 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] de l'application web
+11-Oct-2018 22:00:08.996 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] has finished in [49] ms
+11-Oct-2018 22:00:08.996 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] de l'application web
+11-Oct-2018 22:00:09.746 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] has finished in [749] ms
+11-Oct-2018 22:00:09.746 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] de l'application web
+11-Oct-2018 22:00:09.780 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] has finished in [34] ms
+11-Oct-2018 22:00:09.780 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] de l'application web
+11-Oct-2018 22:00:09.815 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] has finished in [34] ms
+11-Oct-2018 22:00:09.823 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:00:09.852 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:00:09.907 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1994 ms
+11-Oct-2018 22:01:29.905 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/hello] a démarré
+11-Oct-2018 22:01:29.965 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+11-Oct-2018 22:01:33.698 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Oct-2018 22:01:33.699 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:01:33.753 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:01:33.805 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+11-Oct-2018 22:01:33.872 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:01:33.877 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:01:33.880 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:01:33.882 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 22:01:37.255 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+11-Oct-2018 22:01:37.261 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+11-Oct-2018 22:01:37.262 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+11-Oct-2018 22:01:37.262 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2018 22:01:37.264 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-34-generic
+11-Oct-2018 22:01:37.264 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2018 22:01:37.264 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+11-Oct-2018 22:01:37.265 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.2+13-Ubuntu-1ubuntu0.18.04.2
+11-Oct-2018 22:01:37.265 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2018 22:01:37.265 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:01:37.266 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:01:37.266 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Oct-2018 22:01:37.266 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Oct-2018 22:01:37.266 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 22:01:37.267 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/conf/logging.properties
+11-Oct-2018 22:01:37.267 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2018 22:01:37.267 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2018 22:01:37.267 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2018 22:01:37.268 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Oct-2018 22:01:37.268 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Oct-2018 22:01:37.268 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:01:37.268 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:01:37.269 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/temp
+11-Oct-2018 22:01:37.269 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+11-Oct-2018 22:01:37.343 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:01:37.367 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 22:01:37.379 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:01:37.382 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 22:01:37.383 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1037 ms
+11-Oct-2018 22:01:37.489 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+11-Oct-2018 22:01:37.490 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+11-Oct-2018 22:01:37.508 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] de l'application web
+11-Oct-2018 22:01:38.195 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] has finished in [684] ms
+11-Oct-2018 22:01:38.196 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] de l'application web
+11-Oct-2018 22:01:38.328 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] has finished in [131] ms
+11-Oct-2018 22:01:38.328 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] de l'application web
+11-Oct-2018 22:01:38.447 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] has finished in [119] ms
+11-Oct-2018 22:01:38.459 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] de l'application web
+11-Oct-2018 22:01:39.031 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] has finished in [572] ms
+11-Oct-2018 22:01:39.031 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] de l'application web
+11-Oct-2018 22:01:39.064 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] has finished in [32] ms
+11-Oct-2018 22:01:39.064 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] de l'application web
+11-Oct-2018 22:01:39.111 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] has finished in [46] ms
+11-Oct-2018 22:01:39.121 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:01:39.151 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:01:39.168 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1784 ms
+11-Oct-2018 22:25:30.029 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/hello] a démarré
+11-Oct-2018 22:25:30.099 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+11-Oct-2018 22:25:32.455 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Oct-2018 22:25:32.456 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:25:32.511 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:25:32.512 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+11-Oct-2018 22:25:32.576 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:25:32.588 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:25:32.591 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:25:32.593 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 22:25:37.476 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+11-Oct-2018 22:25:37.483 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+11-Oct-2018 22:25:37.484 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+11-Oct-2018 22:25:37.484 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2018 22:25:37.484 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-34-generic
+11-Oct-2018 22:25:37.485 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2018 22:25:37.485 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+11-Oct-2018 22:25:37.485 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.2+13-Ubuntu-1ubuntu0.18.04.2
+11-Oct-2018 22:25:37.486 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2018 22:25:37.486 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:25:37.486 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:25:37.492 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Oct-2018 22:25:37.493 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Oct-2018 22:25:37.493 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 22:25:37.493 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/conf/logging.properties
+11-Oct-2018 22:25:37.494 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2018 22:25:37.494 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2018 22:25:37.494 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2018 22:25:37.494 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Oct-2018 22:25:37.495 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Oct-2018 22:25:37.495 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:25:37.495 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:25:37.496 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/temp
+11-Oct-2018 22:25:37.496 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+11-Oct-2018 22:25:37.573 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:25:37.606 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 22:25:37.637 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:25:37.640 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 22:25:37.641 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1143 ms
+11-Oct-2018 22:25:37.784 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+11-Oct-2018 22:25:37.784 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+11-Oct-2018 22:25:37.808 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] de l'application web
+11-Oct-2018 22:25:38.672 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] has finished in [860] ms
+11-Oct-2018 22:25:38.673 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] de l'application web
+11-Oct-2018 22:25:38.768 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] has finished in [94] ms
+11-Oct-2018 22:25:38.768 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] de l'application web
+11-Oct-2018 22:25:38.850 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] has finished in [82] ms
+11-Oct-2018 22:25:38.851 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] de l'application web
+11-Oct-2018 22:25:39.432 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] has finished in [580] ms
+11-Oct-2018 22:25:39.432 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] de l'application web
+11-Oct-2018 22:25:39.467 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] has finished in [34] ms
+11-Oct-2018 22:25:39.467 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] de l'application web
+11-Oct-2018 22:25:39.504 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] has finished in [37] ms
+11-Oct-2018 22:25:39.511 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:25:39.563 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:25:39.579 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1937 ms
+11-Oct-2018 22:28:08.530 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Oct-2018 22:28:08.531 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:28:08.589 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:28:08.640 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+11-Oct-2018 22:28:08.718 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:28:08.724 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:28:08.729 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:28:08.731 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 22:28:12.764 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+11-Oct-2018 22:28:12.782 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+11-Oct-2018 22:28:12.782 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+11-Oct-2018 22:28:12.783 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2018 22:28:12.783 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-34-generic
+11-Oct-2018 22:28:12.783 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2018 22:28:12.784 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+11-Oct-2018 22:28:12.784 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.2+13-Ubuntu-1ubuntu0.18.04.2
+11-Oct-2018 22:28:12.785 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2018 22:28:12.785 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:28:12.785 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:28:12.786 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Oct-2018 22:28:12.787 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Oct-2018 22:28:12.787 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 22:28:12.787 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/conf/logging.properties
+11-Oct-2018 22:28:12.788 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2018 22:28:12.788 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2018 22:28:12.789 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2018 22:28:12.789 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Oct-2018 22:28:12.789 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Oct-2018 22:28:12.789 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:28:12.790 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:28:12.790 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/temp
+11-Oct-2018 22:28:12.790 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+11-Oct-2018 22:28:12.879 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:28:12.912 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 22:28:12.927 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:28:12.930 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 22:28:12.935 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1244 ms
+11-Oct-2018 22:28:13.072 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+11-Oct-2018 22:28:13.073 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+11-Oct-2018 22:28:13.096 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] de l'application web
+11-Oct-2018 22:28:13.981 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] has finished in [881] ms
+11-Oct-2018 22:28:13.982 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] de l'application web
+11-Oct-2018 22:28:14.085 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] has finished in [103] ms
+11-Oct-2018 22:28:14.086 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] de l'application web
+11-Oct-2018 22:28:14.219 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] has finished in [133] ms
+11-Oct-2018 22:28:14.220 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] de l'application web
+11-Oct-2018 22:28:14.995 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] has finished in [775] ms
+11-Oct-2018 22:28:14.996 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] de l'application web
+11-Oct-2018 22:28:15.061 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] has finished in [63] ms
+11-Oct-2018 22:28:15.062 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] de l'application web
+11-Oct-2018 22:28:15.105 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] has finished in [43] ms
+11-Oct-2018 22:28:15.123 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:28:15.196 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:28:15.219 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 2283 ms
+11-Oct-2018 22:29:30.353 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Oct-2018 22:29:30.354 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:29:30.410 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:29:30.462 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+11-Oct-2018 22:29:30.543 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:29:30.550 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:29:30.552 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:29:30.558 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 22:29:33.887 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+11-Oct-2018 22:29:33.895 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+11-Oct-2018 22:29:33.895 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+11-Oct-2018 22:29:33.896 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Oct-2018 22:29:33.896 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-34-generic
+11-Oct-2018 22:29:33.896 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Oct-2018 22:29:33.896 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+11-Oct-2018 22:29:33.897 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.2+13-Ubuntu-1ubuntu0.18.04.2
+11-Oct-2018 22:29:33.897 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Oct-2018 22:29:33.897 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:29:33.898 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:29:33.901 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Oct-2018 22:29:33.901 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Oct-2018 22:29:33.901 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Oct-2018 22:29:33.902 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/conf/logging.properties
+11-Oct-2018 22:29:33.902 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Oct-2018 22:29:33.903 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Oct-2018 22:29:33.903 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Oct-2018 22:29:33.903 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Oct-2018 22:29:33.904 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Oct-2018 22:29:33.904 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:29:33.904 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34
+11-Oct-2018 22:29:33.905 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/temp
+11-Oct-2018 22:29:33.905 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+11-Oct-2018 22:29:33.983 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:29:34.015 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 22:29:34.029 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:29:34.032 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Oct-2018 22:29:34.033 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1287 ms
+11-Oct-2018 22:29:34.152 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+11-Oct-2018 22:29:34.152 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+11-Oct-2018 22:29:34.174 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] de l'application web
+11-Oct-2018 22:29:34.960 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/manager] has finished in [780] ms
+11-Oct-2018 22:29:34.962 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] de l'application web
+11-Oct-2018 22:29:35.085 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/hello] has finished in [123] ms
+11-Oct-2018 22:29:35.086 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] de l'application web
+11-Oct-2018 22:29:35.144 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/host-manager] has finished in [58] ms
+11-Oct-2018 22:29:35.145 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] de l'application web
+11-Oct-2018 22:29:35.723 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/examples] has finished in [578] ms
+11-Oct-2018 22:29:35.724 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] de l'application web
+11-Oct-2018 22:29:35.759 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/docs] has finished in [35] ms
+11-Oct-2018 22:29:35.760 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] de l'application web
+11-Oct-2018 22:29:35.793 INFOS [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/chemoune/Bureau/programmation_web/td4/apache-tomcat-8.5.34/webapps/ROOT] has finished in [32] ms
+11-Oct-2018 22:29:35.799 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 22:29:35.851 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 22:29:35.879 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1845 ms
+11-Oct-2018 22:34:36.056 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/hello] a démarré
+11-Oct-2018 22:34:36.142 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+11-Oct-2018 22:34:56.156 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/hello] a démarré
+11-Oct-2018 22:34:56.196 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+11-Oct-2018 22:47:56.648 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/hello] a démarré
+11-Oct-2018 22:47:56.692 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+11-Oct-2018 22:49:06.730 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/hello] a démarré
+11-Oct-2018 22:49:06.772 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+11-Oct-2018 23:00:37.100 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/hello] a démarré
+11-Oct-2018 23:00:37.140 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+11-Oct-2018 23:04:57.261 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/hello] a démarré
+11-Oct-2018 23:04:57.297 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+11-Oct-2018 23:07:27.359 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/hello] a démarré
+11-Oct-2018 23:07:27.394 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+11-Oct-2018 23:11:07.500 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/hello] a démarré
+11-Oct-2018 23:11:07.531 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+11-Oct-2018 23:18:37.797 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/hello] a démarré
+11-Oct-2018 23:18:38.009 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+11-Oct-2018 23:19:52.482 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Oct-2018 23:19:52.483 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 23:19:52.537 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 23:19:52.589 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+11-Oct-2018 23:19:52.656 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 23:19:52.658 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Oct-2018 23:19:52.660 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Oct-2018 23:19:52.662 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
