@@ -1,40 +1,38 @@
 package fr.ub.m2gl;
 
-import javax.ws.rs.GET;
-import javax.ws.rs.POST;
-
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.mongodb.BasicDBObject;
+import com.mongodb.DBObject;
+import com.mongodb.MongoClient;
+import com.mongodb.client.FindIterable;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
+import com.mongodb.client.MongoDatabase;
+import com.mongodb.client.model.Projections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.bson.BasicBSONObject;
+import org.bson.Document;
 
 public class User {
-	
 	@JsonProperty("firstName")
 	private String firstName;
 	@JsonProperty("lastName")
 	private String lastName;
 
 	public User() {
-		this.firstName = "default";
-		this.lastName = "default";
+		firstName = new String("");
+		lastName = new String("");
 	}
 	
 	public User(String firstName, String lastName) {
-		this.firstName = firstName;
-		this.lastName = lastName;
+		this.setFirstName(firstName);
+		this.setLastName(lastName);
 	}
-	
-	
-	@GET
-    public String getUsers() {
-		return "";
-    }
-	
-	
-	@POST
-    public void addUser() {
-    }
-	
-	
-	// Getters & Setters
+
 	public String getLastName() {
 		return lastName;
 	}
@@ -42,7 +40,7 @@ public class User {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
-	
+
 	public String getFirstName() {
 		return firstName;
 	}
@@ -50,8 +48,9 @@ public class User {
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-	
+
+	@Override
 	public String toString() {
-		return String.format("firstName : " + firstName + " lastName :" + lastName);
+		return firstName + " " + lastName;
 	}
 }

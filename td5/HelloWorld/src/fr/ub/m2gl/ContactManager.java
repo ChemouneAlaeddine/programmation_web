@@ -18,3 +18,4 @@ public class ContactManager extends ResourceConfig {
         property(ServerProperties.TRACING, "ALL");
    }
 }
+
