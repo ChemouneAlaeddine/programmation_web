@@ -23,7 +23,6 @@ public class ajoutUser {
 				+ "  <br><br>\n"
 				+ "  <input type=\"submit\" value=\"Add User\">\n"
 				+ "</form>"
-				+ "</form>"
 				+ "</body>" + "</html>";
 	}
 }

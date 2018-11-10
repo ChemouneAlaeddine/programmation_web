@@ -17,5 +17,7 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/home/chemoune/Téléchargements/java_jar_files/jar_files/spring-boot-autoconfigure-2.1.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/chemoune/Téléchargements/java_jar_files/jar_files/spring-boot-2.1.0.RELEASE.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

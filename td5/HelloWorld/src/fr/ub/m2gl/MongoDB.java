@@ -20,7 +20,7 @@ public class MongoDB {
 	
 	static MyObjectMapperProvider myObj = new MyObjectMapperProvider();
 	static List<User> users;
-	static File file = new File("/home/chemoune/Bureau/HelloWorld/carnetUsers.json");
+	static File file = new File("/home/chemoune/Bureau/programmation_web/td5/HelloWorld/carnetUsers.json");
 
 	public static String addUserToDB(User user) {
 		MongoClient mongoClient = new MongoClient();
@@ -30,6 +30,8 @@ public class MongoDB {
 		    ObjectMapper mapper = new ObjectMapper();
 		    String jsonString = mapper.writeValueAsString(user);
 		    Document doc = Document.parse(jsonString);
+		    if(collection.count(doc) == 1)
+		    	return " "+user.getFirstName()+" "+user.getLastName()+" alredy exists.";
 		    collection.insertOne(doc);
 		    updateJson();
 		    return " "+user.getFirstName()+" "+user.getLastName()+" added successfully.";
@@ -68,6 +70,18 @@ public class MongoDB {
 		} finally{
 		    mongoClient.close();
 		}
+	}
+	
+	
+	public static String editUserFromDB(User user1, User user2) {
+		try {
+			deleteUserFromDB(user1);
+			addUserToDB(user2);
+		} catch (Exception e) {
+		    e.printStackTrace();
+		    return " "+user1.getFirstName()+" "+user1.getLastName()+" not updated.";
+		}
+		return " "+user1.getFirstName()+" "+user1.getLastName()+" updated successfully.";
 	}
 	
 	
