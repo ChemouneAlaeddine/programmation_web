@@ -1,23 +1,15 @@
-const express = require('express');
+const http = require('http');
 
-const app = express();
+var server = http.createServer();
 
-app.get('/', function(req, res) {
-    res.send('Hello !');
+server.on('request', function(req, res) {
+  res.statusCode = 200;
+  res.setHeader('Content-Type', 'text/plain');
+  res.end('Salut tout le monde !');
 });
 
-app.get('/home', function(req, res) {
-  res.send('Maison :-)');
-});
+server.on('listen', function() {
+  console.log('Server started!');
+})
 
-app.get('/user/:uid', function(req, res) {
-  res.send('Bonjour utilisateur ' + req.params.uid);
-});
-
-app.use(function(req, res, next){
-  res.status(404).send('Page introuvable !');
-});
-
-app.listen(8080, function() {
-  console.log('Example app listening on port 8080!');
-});
+server.listen(8080);

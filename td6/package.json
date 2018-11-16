@@ -1,7 +1,6 @@
 {
   "name": "td6",
   "version": "1.0.0",
-  "description": "",
   "main": "web.js",
   "scripts": {
     "test": "node web.js"
@@ -10,5 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
